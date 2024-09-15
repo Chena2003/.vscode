@@ -2,7 +2,7 @@
 
 ## MSVC
 
-`MSVC`是`Microsoft Visual stdio `中`C++`桌面开发中配套的编译工具。`vs code`可以使用`MSVC`作为编译`C++`的工具。
+`MSVC`是`Microsoft Visual stdio`中`C++`桌面开发中配套的编译工具。`vs code`可以使用`MSVC`作为编译`C++`的工具。
 
 在下载`Microsoft Visual stdio`后， 打开`Developer Command Prompt for VS 2022`切换到项目文件夹，输入`code .`打开`vs code`，提供环境变量。
 
@@ -105,17 +105,13 @@
 }
 ```
 
-
-
-## MinGW 
+## MinGW
 
 `GCC/G++`是`Linux`系统下`C/C++`编译工具。而`MinGW`就是在`Windows`平台下的`GCC/G++`（将`Linux`中`GCC/G++`移植到`Windows`平台下）。同样，`vs code`可以使用`MinGW`作为`C++`的编译工具。
 
 下载`MinGW`，将相应的`bin`文件夹添加到环境变量中，即可。
 
 参考文档：[Visual Studio Code 中的 C++ 和 MinGW-w64 入门](https://code.visualstudio.com/docs/cpp/config-mingw)
-
-
 
 文件配置：
 
@@ -151,8 +147,6 @@
       "version": "2.0.0"
 }
 ```
-
-
 
 `launch.json`：
 
@@ -190,8 +184,6 @@
 }
 ```
 
-
-
 `c_cpp_properties.json`：
 
 ```json
@@ -217,6 +209,3 @@
     "version": 4
 }
 ```
-
-
-
